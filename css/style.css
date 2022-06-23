@@ -6,12 +6,31 @@
     --light-color:#666;
 }
 
+*{
+    text-transform: uppercase;
+}
 
 html{
     font-size: 62.5%;
     overflow-x: hidden;
     scroll-behavior: smooth;
     scroll-padding-top: 6rem;
+}
+
+section{
+    padding: 3rem 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.btn{
+    display: inline-block;
+    margin-top: 1rem;
+    background-color: var(--main-color);
+    cursor: pointer;
+    color: var(--white);
+    font-size: 1.8rem;
+    padding: 1rem 3rem;
 }
 
 .header{
@@ -40,4 +59,34 @@ html{
 .header .flex .navbar a:hover{
     text-decoration: underline;
     color: var(--main-color);
+}
+
+.home-bg{
+    background: linear-gradient(90deg, var(--white), transparent 70%), url(../img/bg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.home-bg .home{
+    min-height: 70rem;
+    display: flex;
+    align-items: center;
+}
+
+.home-bg .home .content{
+    width: 60rem;
+    text-align: center;
+    background-color: rgba(247, 247, 247, 0.445);
+}
+
+.home-bg .home .content h3{
+    font-size: 6rem;
+    color: var(--black);
+}
+
+.home-bg .home .content p{
+    padding: 1rem 0;
+    font-size: 1.6rem;
+    color: var(--black);
+    line-height: 2;
 }
