@@ -2,6 +2,7 @@
     --main-color:  #34495e;
     --white: #fff;
     --black: #333;
+    --backgroung: #27282c;
     --box-shadow:0 .5rem 1rem rgba(0,0,0,.1);
     --light-color:#666;
 }
@@ -15,6 +16,7 @@ html{
     overflow-x: hidden;
     scroll-behavior: smooth;
     scroll-padding-top: 6rem;
+    background: var(--black);
 }
 
 section{
