@@ -12,11 +12,10 @@
 }
 
 html{
-    font-size: 62.5%;
+    font-size: 100%;
     overflow-x: hidden;
     scroll-behavior: smooth;
     scroll-padding-top: 6rem;
-    background: var(--black);
 }
 
 section{
@@ -53,7 +52,7 @@ section{
 
 .header .flex .navbar a{
     margin-left: 2rem;
-    font-size: 2rem;
+    font-size: 1.2rem;
     color: var(--white);
     text-decoration: none;
 }
